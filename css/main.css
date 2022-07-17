@@ -1,0 +1,277 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box
+}
+.header{
+	width: 1500px;
+	margin: 10px auto;
+}
+.logo a
+{
+	font-size: 40px;
+	text-decoration: none;
+	color: #1f1f1f;
+}
+.nav{
+	margin-top: 15px;
+}
+.nav ul
+{
+	list-style: none
+}
+.nav li
+{
+	margin: 0 18px; 
+}
+.nav li a
+{
+	font-size: 20px;
+	text-decoration: none;
+	color: #1f1f1f;
+	padding: 8px 16px;
+	border-radius: 20px;
+}
+.nav ul li a:hover
+{
+	background: #1f1f1f;
+	color: white;
+}
+.banner source
+{
+	margin-top: 10px;
+}
+.banner
+{
+	height: 100vh;
+	overflow: hidden;
+	position: relative;
+}
+.banner video
+{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.box{
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	background: white;
+	padding: 8px 16px;
+	border-radius: 15px;	
+}
+.box {
+	margin-top: 1200px;
+	text-decoration: none;
+}
+.t{
+	font: bold;
+	font-size: 20px;
+	text-decoration: none
+}
+.box1{
+	border-radius: 5px;
+	height: 350px;
+/*
+    background: -webkit-linear-gradient(63deg, rgba(2,0,36,1) 0%, rgba(81,158,204,1) 0%, rgba(11,30,47,1) 100%),;
+    background: -o-linear-gradient(63deg, rgba(2,0,36,1) 0%, rgba(81,158,204,1) 0%, rgba(11,30,47,1) 100%);
+    background: linear-gradient(153deg, rgba(2,0,36,1) 0%, rgba(81,158,204,1) 0%, rgba(11,30,47,1) 100%);
+*/
+	background-image: url("../img/Untitled-22-01-01.png");
+/*	background-repeat: no-repeat;*/
+/*	background-position: center;*/
+	background-position: center;
+
+}
+.box1:hover{
+	background: url("../img/FXW8B6JUYAAIDAV (1).jpg");
+	background-position: center;
+	background-size: cover;
+	border-radius: 5px;
+	transition-duration: 0.3s;
+
+}
+.box2{
+/*
+	background: rgb(2,0,36);
+    background: linear-gradient(133deg, rgba(2,0,36,1) 0%, rgba(5,15,24,1) 0%, rgba(24,68,81,1) 100%);
+*/
+	background: url("../img/Untitled-222-01.png");
+	border-radius: 5px;
+	height: 350px;	
+	background-position: center;
+}
+.box2:hover{
+	background: url("../img/FXW7JGFUcAAzkcX.jpg");
+	background-position: center;
+	background-size: cover;
+	border-radius: 5px;
+	transition-duration: 0.3s;
+	
+}
+.s1{
+	margin-bottom: 70px;
+}
+.s2{
+	margin-top: 50px;
+	position: relative;
+	margin-bottom: 20px;
+}
+.icon{
+	font-size: 40px;
+}
+.s3
+{
+	position: relative;
+    margin-top: 50px;
+	margin-bottom: 30px;
+}
+.container{
+	position: relative;
+}
+.bg1
+{
+	height: 100vh;
+	background: url("../img/Screenshot 2022-07-14 201035.png");
+	background-size: cover;
+	background-attachment: fixed;
+	
+
+}
+.box3
+{
+	;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	height: 170px;
+	background: white;
+	border-radius: 5px;
+	
+}
+.sk1{
+	width: 300px;
+	height: 170px;
+	background: url("../img/f29805290967ccbd92991f0086c51053_6736930339522429900.jpg");
+	background-size: cover;
+	border-radius: 5px;
+}
+.ndsk{
+	width: 900px;
+	margin-left: 20px;
+	margin-top: 8px;
+	
+}
+
+.time{
+	margin-bottom: 8px;
+	margin-right: 10px;
+	text-align: end;
+	align-items: flex-end
+	
+}
+.sk2{
+	width: 300px;
+	height: 170px;
+	background: url("../img/1ddb0a5b868db93715bca1c2ac1d5bcf_4344243023252831583.jpg");
+	background-size: cover;
+	border-radius: 5px;
+}
+.sk3{
+	width: 300px;
+	height: 170px;
+	background: url("../img/b9e8579c7cf52bbccdf3f5a7c7317766_4571258690154617357.jpg");
+	background-size: cover;
+	border-radius: 5px;
+}
+.icon2{
+	font-size: 70px
+}
+
+.s4
+{
+	margin-top: 40px;
+	position: relative
+}
+.box69{
+	background: url("../img/2021062217445558895.png");
+	height: 500px;
+	background-size: cover;
+}
+
+.ft{
+	position: absolute;
+	height: 100px;
+}
+/* FOOTER */
+
+.footer {
+    background: #1f1f1f;
+    font-size: 16px;
+    padding: 40px 0 20px;
+    height: 300px;
+	width: 100%;
+    float: left;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.footer p {
+    color: #8a8a8a;
+}
+
+.footer-col-1,
+.footer-col-2,
+.footer-col-3 {
+    min-width: 400px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.footer-col-1 {
+    line-height: 20px;
+    font-size: 13px;
+}
+
+.footer-col-2 {
+    text-align: center;
+}
+
+.footer-col-2 img {
+    width: 180px;
+    margin-bottom: 20px;
+}
+
+.footer-col-2 h2 {
+    text-align: center;
+}
+
+.footer-col-3 {
+    text-align: center;
+    list-style: none;
+    line-height: 30px;
+	padding-left: 100px;
+
+}
+
+.footer-col-3 ul li {
+    list-style: none;
+
+}
+
+.footer-col-3 ul li a {
+    text-decoration: none;
+    color: #8a8a8a;
+    margin: 10px;
+}
+
+.footer hr {
+    border: none;
+    background: #b5b5b5;
+    height: 1px;
+    margin: 20px 0;
+}
+
+.Copyright {
+    text-align: center;
+}
