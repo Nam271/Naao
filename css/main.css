@@ -208,8 +208,8 @@
 .footer {
     background: #1f1f1f;
     font-size: 16px;
-    padding: 40px 0 20px;
-    height: 300px;
+    padding: 10px 0 20px;
+    height: 530px;
 	width: 100%;
     float: left;
 
@@ -217,14 +217,14 @@
 }
 
 .footer p {
-    color: #8a8a8a;
+    color: white;
 }
 
 .footer-col-1,
 .footer-col-2,
 .footer-col-3 {
     min-width: 400px;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     color: white;
 }
 
@@ -237,10 +237,7 @@
     text-align: center;
 }
 
-.footer-col-2 img {
-    width: 180px;
-    margin-bottom: 20px;
-}
+
 
 .footer-col-2 h2 {
     text-align: center;
@@ -265,13 +262,29 @@
     margin: 10px;
 }
 
-.footer hr {
-    border: none;
-    background: #b5b5b5;
-    height: 1px;
-    margin: 20px 0;
+.row_img img {
+	margin-bottom: 0px;
+	
 }
-
+.wrapper {
+	text-align: center;
+margin-bottom: 30px;
+	font-size: 12px
+}
 .Copyright {
     text-align: center;
+	margin-top: 20px;
+	font-size: 15px;
+}
+.icon-3 {
+	display: flex;
+	justify-content: center;
+	color: white;
+	font-size: 25px;
+}
+.icon-3 ion-icon {
+	width: 50px;
+}
+.icon-3 ion-icon:hover{
+	color: #555555;
 }
